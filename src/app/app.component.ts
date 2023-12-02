@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pruebaTecnicaSngular';
+  numero: number  = 0;
+  resultado: number = 0; 
+
+  cambioNumeroEvent(event: number){
+    this.numero = event
+  }
 }

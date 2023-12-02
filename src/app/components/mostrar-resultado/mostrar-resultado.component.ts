@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-mostrar-resultado',
@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styles: ['']
 })
 export class MostrarResultadoComponent implements OnInit {
-
-  resultado: number = 0;
+  @Input() resultado: number | null = null; 
   constructor() { }
 
   ngOnInit(): void {
