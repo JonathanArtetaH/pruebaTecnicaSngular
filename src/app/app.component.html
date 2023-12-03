@@ -3,9 +3,9 @@
     <div class="col">
       <app-formulario (nuevoNumeroEvent)="cambioNumeroEvent($event)"></app-formulario>
     </div>
-    <div class="col">
-      <app-mostrar-resultado [resultado]="resultado"></app-mostrar-resultado>
+    <div class="col-auto">
+      <app-mostrar-resultado [resultado]="resultado" [numeroInput]="numero"></app-mostrar-resultado>
     </div>
-    <app-operaciones [numeroInput]="numero"></app-operaciones>
+    <app-operaciones [numeroInput]="numero" (resultadoNumero)="obtenerResultado($event)"></app-operaciones>
   </div>
 </div>

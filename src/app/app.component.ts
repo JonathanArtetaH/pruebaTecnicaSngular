@@ -10,7 +10,14 @@ export class AppComponent {
   numero: number  = 0;
   resultado: number = 0; 
 
-  cambioNumeroEvent(event: number){
-    this.numero = event
+  cambioNumeroEvent = (event: number) => this.numero = event;
+
+
+  obtenerResultado (event: number){ 
+    this.resultado = (!isNaN(event))
+    ? event
+    : 0 
   }
+  
+
 }
