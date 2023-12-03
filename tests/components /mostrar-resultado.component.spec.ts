@@ -9,6 +9,11 @@ describe('MostrarResultadoComponent', () => {
   let compiled: HTMLElement;
 
   beforeEach(async () => {
+
+    let component: MostrarResultadoComponent;
+    let fixture: ComponentFixture<MostrarResultadoComponent>;
+    let compiled: HTMLElement;
+
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule

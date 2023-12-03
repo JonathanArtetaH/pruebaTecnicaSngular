@@ -37,5 +37,15 @@ describe('FormularioComponent', () => {
     expect( compiled ).toMatchSnapshot();
   })
 
+  test('Comprobando la funcionalidad de isInvalidNumber con decimal', () => {
+     component.numero = 5.5
+    expect(component.isInvalidNumber()).toBe(true);
+  });
+
+  test('Comprobando la funcionalidad de isInvalidNumber sin decimal' , () => {
+    component.numero = 5
+   expect(component.isInvalidNumber()).toBe(false);
+ }); 
+
    
 });
