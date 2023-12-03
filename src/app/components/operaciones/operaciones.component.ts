@@ -2,8 +2,7 @@ import { Component, EventEmitter, Input, Output, SimpleChanges } from '@angular/
 
 @Component({
   selector: 'app-operaciones',
-  template: '',
-  styles: ['']
+  template: '', 
 })
 export class OperacionesComponent {
   @Output() resultadoNumero = new EventEmitter<number>();

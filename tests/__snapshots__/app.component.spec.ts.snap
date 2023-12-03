@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent Debe coincidir con el snapshot 1`] = `
+<div
+  id="root1"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row mt-5"
+    >
+      <div
+        class="col"
+      >
+        <app-formulario />
+      </div>
+      <div
+        class="col-auto"
+      >
+        <app-mostrar-resultado />
+      </div>
+      <app-operaciones />
+    </div>
+  </div>
+</div>
+`;

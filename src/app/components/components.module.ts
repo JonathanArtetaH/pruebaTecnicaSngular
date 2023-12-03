@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormularioComponent } from './formulario/formulario.component';
 import { OperacionesComponent } from './operaciones/operaciones.component';
 import { MostrarResultadoComponent } from './mostrar-resultado/mostrar-resultado.component';
-import { FormsModule } from '@angular/forms';
-
+import { FormsModule } from '@angular/forms'; 
 
 
 @NgModule({
@@ -15,13 +14,12 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     CommonModule,
-    FormsModule,    
+    FormsModule,   
   ],
   exports: [
     FormularioComponent,
     OperacionesComponent,
-    MostrarResultadoComponent
-
-  ]
+    MostrarResultadoComponent 
+  ], 
 })
 export class ComponentsModule { }

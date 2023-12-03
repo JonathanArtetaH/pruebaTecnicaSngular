@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormularioComponent Debe coincidir con el snapshot 1`] = `
+<div
+  id="root2"
+>
+  <div
+    class="container"
+  >
+    <input
+      class="w-50"
+      max="1000"
+      min="0"
+      name=""
+      placeholder="Ingresar numero"
+      type="number"
+    />
+    
+  </div>
+</div>
+`;
